@@ -9,7 +9,7 @@ public class QuotientAndRemainder {
         System.out.println("Enter the Divisor : ");
         int divisor = sc.nextInt();
 
-        double quotient = (double) dividend / divisor;
+        int quotient = dividend / divisor;
         int remainder = dividend % divisor;
 
         System.out.println("Quotient = " + quotient + " || Remainder = " + remainder);
